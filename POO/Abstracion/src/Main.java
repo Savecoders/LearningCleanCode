@@ -10,9 +10,8 @@ public class Main {
         drinkOne.getDetails();
 
         // using second constructor
-        Drinks drinkArgs = new Drinks("Pepsi", "cola", 24, false);
+        Drinks drinkArgs = new Drinks("Pepsi", "cola", 24, false, new String[]{"water", "melon", "lima", "sugar"});
         drinkArgs.getDetails();
-
-
+        drinkArgs.showIngradients();
     }
 }
